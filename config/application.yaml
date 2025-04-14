@@ -4,7 +4,7 @@ metadata:
   name: go-app-argo-config
   namespace: argocd
 spec:
-  project: itd-k8s
+  project: myproject
   source:
     repoURL: https://github.com/barkikaveri007/argocd.git
     targetRevision: main
